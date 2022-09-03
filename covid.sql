@@ -1,9 +1,9 @@
-/* COVID data */
+/* COVID data project */
 
 Select *
 From Covid.dbo.covid
 
--- Get most recent figures. The most recent data ends in 9th February 2022
+-- Get most recent figures. The most recent data ends on 2nd September 2022
 Create view Recent_death_count as
 Select location, date, total_deaths
 From Covid.dbo.covid
