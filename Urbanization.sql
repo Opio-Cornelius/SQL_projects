@@ -26,19 +26,16 @@ Where code is not NULL AND country <> 'World' AND rural_pn <> 0 AND year_ = 2020
 Select *
 From global_urban_rural_ratio
 
-
 -- Average Urban Population in USA for the period 1960 to 2020
 Select AVG(urban_pn) as Avg_Urb_Popn_USA
 From Urbanization..urban_rural_popn
 Where country = 'United States'
-
 
 -- Select Urban Population by Continent for the year 2020
 Select country, urban_pn
 From Urbanization.dbo.urban_rural_popn
 Where code is NULL AND year_ = 2020 AND country not like '%income'
 Order by urban_pn desc
-
 
 -- Select Urban Population by Country Income level for the year 2020
 Select country, urban_pn
