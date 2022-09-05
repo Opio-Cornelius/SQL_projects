@@ -9,3 +9,6 @@ Hannah Ritchie, Edouard Mathieu, Lucas Rodés-Guirao, Cameron Appel, Charlie Gia
 
 # Financing Healthcare
 Esteban Ortiz-Ospina and Max Roser (2017) - "Financing Healthcare". Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/financing-healthcare' [Online Resource]
+
+# Access to Energy
+Hannah Ritchie, Max Roser and Pablo Rosado (2020) - "Energy". Published online at OurWorldInData.org. Retrieved from: 'https://ourworldindata.org/energy' [Online Resource]
