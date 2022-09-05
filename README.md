@@ -1,4 +1,4 @@
-# TSQL Portfolio Projects
+# SQL Portfolio Projects
 These are Transact SQL commands for quering the databases listed below;
 
 # Urbanization
